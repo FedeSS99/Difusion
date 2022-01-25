@@ -7,7 +7,7 @@ from RutinasDifusion import DifusionLim
 #Dimensiones de la "caja"
 N = 512
 #Numero de celdas caminantes
-Nceldas =  20000
+Nceldas =  15000
 
 #Creamos la superficie original con una "gota" en el centro
 Superficie = zeros((N,N)).astype(float64)

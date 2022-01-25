@@ -56,7 +56,7 @@ def DifusionLim(np.ndarray[Dtype_t, ndim=2] Superficie,int Nceldas):
         int cenX, cenY
     
     pi = 4.0*atan(1.0)
-    maxDist = (2**0.5)*N
+    maxDist = N/(2.0**0.5)
     cenX = N/2
     cenY = cenX
 
