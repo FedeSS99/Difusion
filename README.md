@@ -1,9 +1,7 @@
-# Difusion-Limitada-por-Agregacion
-Proyecto que simula la formación de los patrones característicos de la difusión limitada por agregación, todo implementado utilizando Cython y Pyqtgraph.
+# Limited Diffusion By Agregation
+This project simulates the formation of common patterns with the concept of limited diffusion by agregation, the simulation is wrriten in Cython and the visualization with Pyqtgraph.
 
-Se muestra un arreglo que denota las densidades que hay de la sustancia "desconocida" en cada celda; siendo que cada nueva celda con material se simula de forma individual y secuencial (no hay multiples celdas ejecutandose en todo el tiempo de simulación).
-
-Un ejemplo de lo obtenible es el siguiente video:
+An array is shown as an image that represents the "density" that a non-specific material sample has in a unit cell; every new cell is obtained through a sequential cycle so for the moment there is not a parallelized method.
 
 # Ejemplos
 ![alt text](https://github.com/FedeSS99/Difusion/blob/master/Ejemplo.png)
